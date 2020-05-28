@@ -10,11 +10,20 @@ import UIKit
 
 class trap1: ViewController {
 
+    @IBOutlet weak var templeLabel: UILabel!
+    @IBOutlet weak var templeConfirm: UIButton!
+    var trapVariants: [Int] = [1, 2, 3, 4]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
+    
+    func getAndSet() {
+        trapVariants.shuffle()
+    }
+    
     
 
     /*

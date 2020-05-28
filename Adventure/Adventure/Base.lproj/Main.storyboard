@@ -74,6 +74,10 @@
                         <viewLayoutGuide key="safeArea" id="9xj-E7-Zwg"/>
                     </view>
                     <navigationItem key="navigationItem" id="LUi-S7-Xfj"/>
+                    <connections>
+                        <outlet property="templeConfirm" destination="LOG-66-nKL" id="y90-rh-CRh"/>
+                        <outlet property="templeLabel" destination="9WU-pn-esi" id="ky9-p3-cm4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fue-nZ-G5J" sceneMemberID="firstResponder"/>
             </objects>
