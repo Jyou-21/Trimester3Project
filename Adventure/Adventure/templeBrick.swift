@@ -10,7 +10,7 @@ import Foundation
 
 
 let traps: [Int:[String:Any]] =
-    [1:["Descr":"Pick wood",
+    [1:["desc":"Pick wood",
         "op1":["name":"Wood",
                "survive":true
         ],
@@ -18,7 +18,7 @@ let traps: [Int:[String:Any]] =
                "survive":false
         ]
         ],
-     2:["Descr":"Pick chalice",
+     2:["desc":"Pick chalice",
         "op1":["name":"Chalice",
                "survive":true
         ],
@@ -26,7 +26,7 @@ let traps: [Int:[String:Any]] =
                "survive":false
         ]
         ],
-     3:["Descr":"pick fire symbol",
+     3:["desc":"pick fire symbol",
         "op1":["name":"Symbol of earth",
                "survive":false
         ],
@@ -34,7 +34,7 @@ let traps: [Int:[String:Any]] =
                "survive":true
         ]
         ],
-     4:["Descr":"pick slowly advance",
+     4:["desc":"pick slowly advance",
         "op1":["name":"sprint through",
                "survive":false
         ],

@@ -14,11 +14,10 @@
 		365E056B24723B2200B4CAA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 365E056A24723B2200B4CAA3 /* Assets.xcassets */; };
 		365E056E24723B2200B4CAA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 365E056C24723B2200B4CAA3 /* LaunchScreen.storyboard */; };
 		365E057A2472755600B4CAA3 /* trap1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365E05792472755600B4CAA3 /* trap1.swift */; };
-		365E057C2472758B00B4CAA3 /* trap2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365E057B2472758B00B4CAA3 /* trap2.swift */; };
-		365E057E2472759C00B4CAA3 /* trap3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365E057D2472759C00B4CAA3 /* trap3.swift */; };
-		365E0580247275BD00B4CAA3 /* treasureRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365E057F247275BD00B4CAA3 /* treasureRoom.swift */; };
-		365E0582247275D100B4CAA3 /* escape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365E0581247275D100B4CAA3 /* escape.swift */; };
 		365E05842472770900B4CAA3 /* templeBrick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365E05832472770900B4CAA3 /* templeBrick.swift */; };
+		365E0588248CA81300B4CAA3 /* trapMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365E0587248CA81300B4CAA3 /* trapMaster.swift */; };
+		365E058A248CAD8800B4CAA3 /* Escape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365E0589248CAD8800B4CAA3 /* Escape.swift */; };
+		365E058E248CAEE100B4CAA3 /* trap2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365E058D248CAEE100B4CAA3 /* trap2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,11 +30,10 @@
 		365E056D24723B2200B4CAA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		365E056F24723B2200B4CAA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		365E05792472755600B4CAA3 /* trap1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trap1.swift; sourceTree = "<group>"; };
-		365E057B2472758B00B4CAA3 /* trap2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trap2.swift; sourceTree = "<group>"; };
-		365E057D2472759C00B4CAA3 /* trap3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trap3.swift; sourceTree = "<group>"; };
-		365E057F247275BD00B4CAA3 /* treasureRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = treasureRoom.swift; sourceTree = "<group>"; };
-		365E0581247275D100B4CAA3 /* escape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = escape.swift; sourceTree = "<group>"; };
 		365E05832472770900B4CAA3 /* templeBrick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = templeBrick.swift; sourceTree = "<group>"; };
+		365E0587248CA81300B4CAA3 /* trapMaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trapMaster.swift; sourceTree = "<group>"; };
+		365E0589248CAD8800B4CAA3 /* Escape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Escape.swift; sourceTree = "<group>"; };
+		365E058D248CAEE100B4CAA3 /* trap2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trap2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,16 +69,15 @@
 				365E056124723B2100B4CAA3 /* AppDelegate.swift */,
 				365E056324723B2100B4CAA3 /* SceneDelegate.swift */,
 				365E056724723B2100B4CAA3 /* Main.storyboard */,
-				365E05832472770900B4CAA3 /* templeBrick.swift */,
 				365E056A24723B2200B4CAA3 /* Assets.xcassets */,
 				365E056C24723B2200B4CAA3 /* LaunchScreen.storyboard */,
 				365E056F24723B2200B4CAA3 /* Info.plist */,
 				365E056524723B2100B4CAA3 /* ViewController.swift */,
+				365E05832472770900B4CAA3 /* templeBrick.swift */,
 				365E05792472755600B4CAA3 /* trap1.swift */,
-				365E057B2472758B00B4CAA3 /* trap2.swift */,
-				365E057D2472759C00B4CAA3 /* trap3.swift */,
-				365E057F247275BD00B4CAA3 /* treasureRoom.swift */,
-				365E0581247275D100B4CAA3 /* escape.swift */,
+				365E058D248CAEE100B4CAA3 /* trap2.swift */,
+				365E0589248CAD8800B4CAA3 /* Escape.swift */,
+				365E0587248CA81300B4CAA3 /* trapMaster.swift */,
 			);
 			path = Adventure;
 			sourceTree = "<group>";
@@ -156,15 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				365E0582247275D100B4CAA3 /* escape.swift in Sources */,
+				365E058A248CAD8800B4CAA3 /* Escape.swift in Sources */,
 				365E056624723B2100B4CAA3 /* ViewController.swift in Sources */,
 				365E056224723B2100B4CAA3 /* AppDelegate.swift in Sources */,
 				365E05842472770900B4CAA3 /* templeBrick.swift in Sources */,
-				365E057E2472759C00B4CAA3 /* trap3.swift in Sources */,
-				365E0580247275BD00B4CAA3 /* treasureRoom.swift in Sources */,
 				365E057A2472755600B4CAA3 /* trap1.swift in Sources */,
 				365E056424723B2100B4CAA3 /* SceneDelegate.swift in Sources */,
-				365E057C2472758B00B4CAA3 /* trap2.swift in Sources */,
+				365E0588248CA81300B4CAA3 /* trapMaster.swift in Sources */,
+				365E058E248CAEE100B4CAA3 /* trap2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

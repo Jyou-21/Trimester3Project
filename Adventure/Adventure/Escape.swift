@@ -1,15 +1,16 @@
 //
-//  trap3.swift
+//  Escape.swift
 //  Adventure
 //
-//  Created by Jack Younger on 5/18/20.
+//  Created by Jack Younger on 6/6/20.
 //  Copyright © 2020 Jack Younger. All rights reserved.
 //
 
 import UIKit
 
-class trap3: ViewController {
+class Escape: ViewController {
 
+    @IBOutlet weak var templeLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 

@@ -8,32 +8,17 @@
 
 import UIKit
 
-class trap1: ViewController {
-
+class trap1: trapMaster {
+    
     @IBOutlet weak var templeLabel: UILabel!
     @IBOutlet weak var templeConfirm: UIButton!
-    var trapVariants: [Int] = [1, 2, 3, 4]
+    @IBOutlet weak var button1: UIButton!
+    @IBOutlet weak var button2222: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        getAndSet(templeLabel: templeLabel, button1: button1, button2: button2222)
+        
         // Do any additional setup after loading the view.
     }
-    
-    func getAndSet() {
-        trapVariants.shuffle()
-    }
-    
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
